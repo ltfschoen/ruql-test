@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    builder (3.2.3)
+    getopt (1.4.3)
+    ruql (0.1.5)
+      builder (>= 3.0)
+      getopt (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruql (~> 0.1.5)
+
+BUNDLED WITH
+   1.16.1

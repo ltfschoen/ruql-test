@@ -1,5 +1,5 @@
 class Html5Renderer
-  require 'builder'
+  require_relative '../../../../builder-3.2.3/lib/builder'
   require 'erb'
   
   attr_reader :output

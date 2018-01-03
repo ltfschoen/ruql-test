@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'builder/blankslate'
+require_relative 'blankslate'
 
 module Builder
 
@@ -130,7 +130,7 @@ module Builder
 
     private
 
-    require 'builder/xchar'
+    require_relative 'xchar'
     if ::String.method_defined?(:encode)
       def _escape(text)
         result = XChar.encode(text)

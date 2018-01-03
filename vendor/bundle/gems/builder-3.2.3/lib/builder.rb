@@ -9,5 +9,5 @@
 # above copyright notice is included.
 #++
 
-require 'builder/xmlmarkup'
-require 'builder/xmlevents'
+require_relative 'builder/xmlmarkup'
+require_relative 'builder/xmlevents'

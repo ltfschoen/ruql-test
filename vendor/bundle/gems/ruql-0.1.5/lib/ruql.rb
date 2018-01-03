@@ -1,5 +1,5 @@
 # basic gems/libs we rely on
-require 'builder'
+require_relative '../../builder-3.2.3/lib/builder'
 require 'logger'
 require 'date'
 

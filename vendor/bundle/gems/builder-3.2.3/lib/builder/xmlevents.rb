@@ -9,7 +9,7 @@
 # above copyright notice is included.
 #++
 
-require 'builder/xmlmarkup'
+require_relative 'xmlmarkup'
 
 module Builder
 

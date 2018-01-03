@@ -1,4 +1,4 @@
-require 'builder'
+require_relative '../../../../builder-3.2.3/lib/builder'
 require 'yaml'
 
 class EdXmlRenderer
